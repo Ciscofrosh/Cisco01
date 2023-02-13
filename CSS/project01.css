@@ -1,0 +1,461 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(129, 120, 120),rgb(199, 190, 190));
+
+}
+nav{
+    height: 3rem;
+    width: 100%;
+    background-color: rgb(234, 211, 211);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+    text-align: center;
+    align-items: center; 
+    
+}
+h4{
+    font-size: 1rem;
+    margin: 1em;
+}
+.a{
+    font-size: 1.2rem;
+    margin: 1em;
+    text-decoration: none;
+}
+.cart{
+    font-size: 2.1em;
+    margin: 1em;
+}
+.header{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    height: 40rem;
+    width: 100%;
+    background-image: linear-gradient(to top, rgb(192, 69, 69), rgb(72, 71, 71) );
+}
+.headset01{
+    position: absolute;
+    height: 50em;
+    width: 50em;
+    left :45em;
+    top:8em;
+    opacity: .8;
+}
+.wireless{
+    padding-top:11em ;
+    height: 53em;
+    margin-left: 6em;
+    margin-bottom: 0;
+}
+.sth3{
+    padding: 0;
+    margin: 0;
+    font-size:2.5em;
+}
+.stp{
+    font-size: 1em;
+    color: black;
+}
+.sth2{
+    padding: 0;
+    margin: 0;
+    font-size: 10em;
+    color: black;
+}
+.sth1{
+    padding: 0;
+    margin: 0;
+    font-size: 18.3em;
+    color:#fff;
+    line-height: .9em;
+}
+.firstbottun{
+    margin: 0;
+    color: #fff;
+    background-color:red;
+    height: 3em;
+    width:15em ;
+    border-radius: 2em;
+}
+.underwireless{
+    text-align:right;
+    margin-right:12em ;
+}
+.Goods{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows:repeat(2);
+    grid-template-areas: 
+    'a b c c'
+    "d d e f"
+    ;
+    gap: .5rem;
+    padding: 1rem;
+    
+    height: 31.2rem;
+    
+}
+.class{
+    height: 15rem;
+    width: 20rem;
+    border-radius: 1em;
+}
+.class:nth-child(1){
+    background-image:linear-gradient(to top,red,black);
+    position: relative;
+    grid-area: a;   
+}
+.class:nth-child(2){
+    background-image:linear-gradient(to right,darkolivegreen,black) ;
+    position: relative;
+    grid-area: b;
+}
+.class:nth-child(3){
+    background-image:linear-gradient(to bottom,red,navy);
+    position: relative;
+    grid-area: c;
+    width: 100%;
+}
+.class:nth-child(4){
+    background-image:linear-gradient(to left,rgb(141, 171, 171), rgb(177, 157, 157));
+    grid-area: d;
+    width: 100%;
+    position: relative;
+}
+.class:nth-child(5){
+    background-image: linear-gradient(to left,yellow,green);    
+    position: relative;
+    grid-area: e;
+}
+.class:nth-child(6){
+    background-image: linear-gradient(to left,blue,violet);
+    position: relative;
+    grid-area: f;
+}
+.earpiece{
+    height: 23em; 
+    width: 20em;
+    position: absolute;
+    right: 4rem;
+    top: 0;
+    opacity: .7;
+}
+p{
+ font-size: 1.5em;
+ color: #fff;
+ margin: 0;
+ padding: 0;
+}
+h2{
+font-size: 2.2em;
+color: #fff;
+}
+h1{
+font-size: 4em;
+color: rgb(135, 138, 138);
+margin: 0;
+padding: 0;
+}
+.write1{
+    margin-top: 4em;
+    margin-left: 3em;
+}
+.secondbutton{
+    color: white;
+    background-color: red;
+    height: 2.5em;
+    width: 8.5em;
+    border-radius: 2em;
+}
+.write2{
+    margin-top: 6em;
+    margin-left: 2em;
+}
+.double{
+    position: absolute;
+    height: 22em;
+    width: 24em;
+    top: 0;
+    right: 0;
+    opacity: .8;
+}
+.write3{
+    margin-top: 6em;
+    margin-left:3em;
+}
+.whitebuttons{
+    color:red ;
+    background-color: #fff;
+    height:2.5em;
+    width: 7em;
+    border-radius: 2em;
+}
+.mac01{
+    position: absolute;
+    height: 22em;
+    width: 36em;
+    top: 0;
+    right: 5em;
+}
+.write4{
+    margin-left: 4em;
+    margin-top: 4em;
+
+} 
+.ndp{
+    color: black;
+    font-family: serif;
+}
+.game{ 
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.PS4white{
+    height: 20em;
+    width: 24em;
+    position: absolute;
+    top: 2em;
+    right: 5em;
+}
+.write5{
+    margin-top: 2.5em;
+    margin-left: 1.2em;
+}
+.gameV{
+    position: absolute;
+    height:19em ;
+    width: 26em;
+    top: 4.9em;
+    right:-3.6rem;
+}
+
+.JBL02{
+    position: absolute;
+    height: 15em;
+    width: 15em;
+    transform: rotate(-30deg);
+    bottom:0;
+    right: 0;
+}
+.secondnav{
+    height:5rem ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.thesame{
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    padding-top: 1em;
+}
+.littletext{
+    font-size: 2em;
+    padding:0 ;
+    margin:0 ;
+}
+.ptext{
+    color: black;
+    padding:0 ;
+    margin:0 ;
+}
+.icons{
+    font-size:5em;
+    color: rgba(255, 10, 2, 0.4);
+    margin-right: .5em;
+}
+.reddiv{
+    height: 18rem;
+    width: 98%;
+    background-image: linear-gradient(to bottom,red,black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    border-radius: 2.5em;
+    top: 12em;
+    
+}
+.both1{
+  margin-left: 5em;
+  padding: 2em;
+}
+.both2{
+
+    margin-right: 15em;
+    line-height: 3.6em;
+}
+.fine{
+    color: white;
+    font-size: 10em;
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+.l2{
+    font-size:3em ;
+    margin: 0;
+    padding: 0;
+}
+.redheadset{
+    position: absolute;
+    top: -18em;
+    left: 16em;
+    height: 48em;
+    width: 56em;
+    filter:drop-shadow(16px 16px 10px black);
+}
+.best{
+    line-height: 1em;
+    text-align: center;
+    height: 36.9rem;
+    padding: 2em;
+}
+.besth2{
+    color: black;
+    font-family: serif;
+    font-size: 3.3em;
+}
+.bestp{
+    color: black;
+}
+.seller{
+    height: 15rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    height: 15em;
+    width: 17em;
+    
+}
+.besth3{
+    font-size: 2em;
+    font-family: serif;
+}
+.product{
+    line-height: 1em;
+    width: 30em;
+    height: 19em;
+    margin-top: 4em;
+   
+}
+.images{
+    background-color: rgb(201, 201, 205);
+    text-align: center;
+    border-radius: 2em;
+}
+.greendivhuz{
+    padding:.8rem;
+    height: 26rem;
+    width: 100%;
+    position: relative;
+}
+.greendiv{
+    height: 18rem;
+    width: 98%;
+    background-image: linear-gradient(to bottom,rgb(105, 105, 170),black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:absolute;
+    border-radius: 2em;
+    margin-top: rem;
+    top: 12em;
+}
+.blue{
+    height: 33em;
+    width: 34em;
+    position: absolute;
+    top: -10em;
+    left: 38.9em;
+    transform: rotate(180deg);
+}
+.News{
+    height: 40rem;  
+    width: 100%;
+}
+.r2div{
+    margin-top: 3em;
+    text-align: center;
+}
+.r2{
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000;
+}
+.newsheadlines{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+.headlines{
+    margin-top: 4em;
+    height: 40em;
+    width: 38em;
+}
+.newsimage{
+    height: 20em;
+    width: 100%;
+}
+.newsimg{
+    height: 20em;
+    width: 100%;
+    border-radius: 2em;
+}
+.newsh2{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
